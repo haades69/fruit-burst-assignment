@@ -56,12 +56,19 @@
       <section class="">
         <!-- carousel -->
         <div class="carousel lg:">
-          <div id="slide1" class="carousel-item relative w-full">
-            <img src="images/banner1.png" class="w-full" />
+          <div id="slide1" class="carousel-item relative h-[250px] md:h-[400px]
+          lg:h-[600px] w-full">
+            <img src="images/banner1.png" class="w-full h-[250px] md:h-[400px]
+            lg:h-[600px]" />
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
               <a href="#slide4" class="btn btn-circle">❮</a>
+              <div class="flex-row text-center">
+                <h1 class="text-2xl md:text-7xl lg:text-7xl font-extrabold text-white">Exotic tastes at <br> your doorstep</h1>
+              <p class="text-white py-6 ">We supply highly quality organic products</p>
+              <button class="text-white bg-[#F85559] py-2 px-5 rounded-md">Shop Now</button>
+              </div>
               <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
           </div>
@@ -71,6 +78,11 @@
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
               <a href="#slide1" class="btn btn-circle">❮</a>
+              <div class="flex-row text-center">
+                <h1 class="text-2xl md:text-7xl lg:text-7xl font-extrabold text-white">Exotic tastes at <br> your doorstep</h1>
+              <p class="text-white py-6 ">We supply highly quality organic products</p>
+              <button class="text-white bg-[#F85559] py-2 px-5 rounded-md">Shop Now</button>
+              </div>
               <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
           </div>
@@ -80,6 +92,11 @@
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
               <a href="#slide2" class="btn btn-circle">❮</a>
+              <div class="flex-row text-center">
+                <h1 class="text-2xl md:text-7xl lg:text-7xl font-extrabold text-white">Exotic tastes at <br> your doorstep</h1>
+              <p class="text-white py-6 ">We supply highly quality organic products</p>
+              <button class="text-white bg-[#F85559] py-2 px-5 rounded-md">Shop Now</button>
+              </div>
               <a href="#slide4" class="btn btn-circle">❯</a>
             </div>
           </div>
@@ -89,6 +106,11 @@
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
               <a href="#slide3" class="btn btn-circle">❮</a>
+              <div class="flex-row text-center">
+                <h1 class="text-2xl md:text-7xl lg:text-7xl font-extrabold text-white">Exotic tastes at <br> your doorstep</h1>
+              <p class="text-white py-6 ">We supply highly quality organic products</p>
+              <button class="text-white bg-[#F85559] py-2 px-5 rounded-md">Shop Now</button>
+              </div>
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
           </div>
@@ -331,7 +353,7 @@
         style="background-image: url(images/banner1.png)"
         class="bg-no-repeat bg-cover bg-center rounded-lg text-white text-center lg:my-28 p-7 lg:p-32"
       >
-        <h1 class="text-5xl font-extrabold">Meet the team section</h1>
+        <h1 class=" text-3xl md:text-5xl lg:text-5xl font-extrabold">Meet the team section</h1>
         <p class="font-medium py-6">
           Contrary to popular belief, is not simply random text. It has roots in
           a piece of classical <br />
@@ -381,13 +403,102 @@
         </div>
       </section>
       <!-- why choose us section -->
-      <section>
-        <h1>Why Choose Us</h1>
-        <p>
+      <section class=" my-32">
+        <h1 class="text-center text-2xl md:text-5xl lg:text-5xl font-extrabold">Why Choose Us</h1>
+        <p class="py-6 text-center ">
           Contrary to popular belief, is not simply random text. It has roots in
-          a piece of classical Latin literature from 45 BC, making it over 2000
+          a piece of classical <br> Latin literature from 45 BC, making it over 2000
           years old.
         </p>
+        <!-- unga bunga -->
+        <div class="lg:flex gap-12">
+          <!-- left and pic -->
+          <div class="flex flex-col lg:flex-row-reverse gap-12 items-center">
+            <!-- img div -->
+            <div>
+              <img src="images/whychoose1.png" alt="">
+            </div>
+            <!-- left text -->
+            <div class="">
+              <div class="text-center lg:text-left lg:flex gap-6 pb-12 ">
+                <div class="flex justify-center">
+                  <div class=" w-[50px] h-[50px] p-3 rounded-full bg-[#12121214]">
+                    <img class="" src="images/group 1.png" alt="">
+                  </div>
+                </div>
+                <div>
+                  <h1 class="text-2xl pb-3 font-extrabold">Dedicated Team</h1>
+                  <p>Professional employees are there for <br> you to pick the most amazing and fresh fruits.</p>
+                </div>
+              </div>
+
+              <div class="text-center lg:text-left lg:flex gap-6 pb-12  ">
+               <div class="flex justify-center">
+                <div class="w-[50px] h-[50px] p-3 rounded-full bg-[#12121214]">
+                  <img class="" src="images/love 1.png" alt="">
+                </div>
+               </div>
+                <div>
+                  <h1 class="text-2xl pb-3 font-extrabold">Fresh is Best</h1>
+                  <p>Professional employees are there for <br> you to pick the most amazing and fresh fruits.</p>
+                </div>
+              </div>
+
+              <div class="text-center lg:text-left lg:flex gap-6 pb-12 ">
+                <div class="flex justify-center">
+                  <div class="w-[50px] h-[50px] p-3 rounded-full bg-[#12121214]">
+                    <img class="" src="images/gift-box 1.png" alt="">
+                  </div>
+                </div>
+                <div>
+                  <h1 class="text-2xl pb-3 font-extrabold">Gift Certificates</h1>
+                  <p>Professional employees are there for <br> you to pick the most amazing and fresh fruits.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- right -->
+          <div class="mt-12 lg:mt-0 text-right">
+            <div class="text-center lg:text-right  flex flex-col-reverse lg:flex-row gap-6 pb-12 ">
+              <div>
+                <h1 class="text-2xl pb-3 font-extrabold">Integrated Supplier</h1>
+                <p>Professional employees are there for <br> you to pick the most amazing and fresh fruits.</p>
+              </div>
+              <div class="flex justify-center">
+                <div class="w-[50px] h-[50px] p-3 rounded-full bg-[#12121214]">
+                  <img class="" src="images/fruit 1.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center lg:text-right  flex flex-col-reverse lg:flex-row gap-6 pb-12  ">
+              <div>
+                <h1 class="text-2xl pb-3 font-extrabold">Sustainable Practice</h1>
+                <p>Professional employees are there for<br> you to pick the most amazing and fresh fruits.</p>
+              </div>
+              
+              <div class="flex justify-center">
+                <div class="w-[50px] h-[50px] p-3 rounded-full bg-[#12121214]">
+                  <img class="" src="images/ice-cream 1.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center lg:text-right flex flex-col-reverse lg:flex-row gap-6 ">
+              
+              <div>
+                <h1 class="text-2xl pb-3 font-extrabold">The Benefits Only</h1>
+                <p>Professional employees are there for <br> you to pick the most amazing and fresh fruits.</p>
+              </div>
+              <div class="flex justify-center">
+                <div class="w-[50px] h-[50px] p-3 rounded-full bg-[#12121214]">
+                  <img class="" src="images/like 1.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </section>
     </main>
     <footer>
